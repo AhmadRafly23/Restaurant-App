@@ -54,7 +54,7 @@ function Navbar() {
                 className="w-full bg-white absolute border border-gray-300 rounded-2xl px-4 py-2 top-8"
                 onClick={handleLogout}
               >
-                <span className="dark:text-white">Logout</span>
+                <span>Logout</span>
               </div>
             )}
           </div>
