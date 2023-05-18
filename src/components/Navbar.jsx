@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center flex-col mb-4 sm:flex-row sm:mb-0">
         <div className="flex items-center space-x-2">
           <img className="w-10 h-10" src={iconRestaurant} alt="" />
           <h1 className="text-4xl font-light py-4 dark:text-white">
@@ -51,7 +51,7 @@ function Navbar() {
             <span className="dark:text-white">{user?.email}</span>
             {showMenu && (
               <div
-                className="w-full absolute border border-gray-300 rounded-2xl px-4 py-2 top-8"
+                className="w-full bg-white absolute border border-gray-300 rounded-2xl px-4 py-2 top-8"
                 onClick={handleLogout}
               >
                 <span className="dark:text-white">Logout</span>
