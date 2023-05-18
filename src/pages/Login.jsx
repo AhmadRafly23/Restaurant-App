@@ -25,7 +25,7 @@ function Login() {
     <GuestGuard>
       <Alert />
       <div className="h-screen flex justify-center items-center">
-        <div className="max-w-md w-full mx-auto">
+        <div className="max-w-md w-full mx-auto px-4 sm:px-0">
           <h2 className="text-xl text-center font-bold text-neutral-900 mb-4 dark:text-white">
             Login to Your Account
           </h2>
