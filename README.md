@@ -1,5 +1,5 @@
 # Restaurant-App
-This project was created with ReactJs version 18.2.0, Node Js Version 18.6.0, and NPM version 9.5.1
+This project was created with React Js version 18.2.0, Node Js Version 18.6.0, and NPM version 9.5.1
 
 ## Project install
 ```
