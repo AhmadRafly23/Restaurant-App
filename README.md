@@ -1,6 +1,6 @@
 # Restaurant-App
 
-##Project install
+## Project install
 ```
 npm create vite@latest
 ```
